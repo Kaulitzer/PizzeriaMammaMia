@@ -1,0 +1,189 @@
+
+/* Estilos para la página de inicio (Home) */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pizza-cards {
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around
+}
+  
+  .pizza-card {
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+  }
+  
+  
+  /* Estilos para la página de detalle de pizza (DetallePizza) */
+  .detalle-pizza {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .detalle-pizza img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+  }
+  
+  /* Estilos para la página del carrito (Carrito) */
+  .carrito {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .carrito-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .carrito-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  .carrito-item img {
+    max-width: 100%;
+  }
+  
+  .cantidad-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .cantidad-buttons button {
+    background-color: #0077CC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .cantidad-buttons button:hover {
+    background-color: #0055AA;
+  }
+  
+  .carrito a {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0077CC;
+  }
+
+
+  .vistaPizza{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc; 
+    padding: 20px;
+  }
+
+  .datosVistaPizza {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+
+  .datosVistaPizza h1 {
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px; 
+  }
+
+  .datosVistaPizza p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .datosVistaPizza ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .datosVistaPizza li {
+    font-weight: bold;
+    font-size: 20px; 
+  }
+  
+  .datosVistaPizza button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    width: 20%; 
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+  }
+
+  .home-pizza-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .home-pizza-card img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .botonesHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+  }
+
+  .tarjeta{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+    border: 1px solid #ccc; 
+    width: 25%;
+  }
+
+  .pizzasCarrito{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .pizzasCarrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 3%;
+  }
+  
+  .pizzasCarrito img {
+    max-width: 150px; 
+    height: auto;
+  }
+  
+  .pizzasCarrito h3 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px; 
+  }
+  
+  .pizzasCarrito p {
+    font-size: 12px; 
+    margin-left: 10px; 
+  }
+  
